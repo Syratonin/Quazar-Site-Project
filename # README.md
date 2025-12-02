@@ -12,6 +12,8 @@ This website is for Quazar, a fictional company using teleportation to ship pack
 - Added styling for new elements
 - Added fillable order form that refreshes the page when submitted
 
+- Added price estimator for shipping distance including seperate js file
+
 ## Future Plans
 
 - Primarily planning to add further styling improvements and add functionality, including potentially an interactive map
