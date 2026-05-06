@@ -71,7 +71,7 @@ label {
 input[type=text], input[type=email], select {
     box-sizing: border-box;
     width: 250px;
-    border: 1px rgba(140, 170, 255, 0.6));
+    border: 1px rgba(140, 170, 255, 0.6);
     border-radius: 8px;
     margin-bottom: 1rem;
     font-size: 1rem;
@@ -266,4 +266,3 @@ footer::before {
   }
 
 }
-

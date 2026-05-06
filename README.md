@@ -21,6 +21,11 @@ This website is for Quazar, a fictional company using teleportation to ship pack
 
 - Improved file structure cleanliness
 
+- Added JS to every page
+- Added regex email enforcement
+- Corrected typos in CSS file
+- Added a fun distance checker for the listed sites
+
 
 ## Future Plans
 
