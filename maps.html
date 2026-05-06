@@ -61,11 +61,46 @@
             (For our customers hailing from the US, thats soccer) Thus far, a total of over 500 million packages have been sent from this location alone! 
         </p>
     </div>
+<div id="layout">
+    <form>
+        <h3>Distance Checker</h3>
+
+    <br><br>
+    
+    <label>From:</label>
+    <select id="pointA">
+    <option value="A">A - San Francisco</option>
+    <option value="B">B - Siberia</option>
+    <option value="C">C - Sydney</option>
+    <option value="D">D - India/China</option>
+    <option value="E">E - Switzerland</option>
+    <option value="F">F - Mozambique</option>
+    <option value="G">G - Rio De Janeiro</option>
+    </select>
+
+    <br><br>
+
+    <label>To:</label>
+    <select id="pointB">
+    <option value="A">A - San Francisco</option>
+    <option value="B">B - Siberia</option>
+    <option value="C">C - Sydney</option>
+    <option value="D">D - India/China</option>
+    <option value="E">E - Switzerland</option>
+    <option value="F">F - Mozambique</option>
+    <option value="G">G - Rio De Janeiro</option>
+    </select>
+
+    <br><br>
+
+<button onclick="handleDistanceCheck()">Check Distance</button>
+    </form>
+</div>
 
     <footer>
         <span class = "site-name">Quazar</span>
         <span class="copyright">©1969</span>
     </footer>
-    
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
