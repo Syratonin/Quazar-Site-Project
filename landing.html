@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Welcome to Quazar</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <!--Update: Converted this to landing.html, created new homepage as index.html-->
@@ -37,7 +38,9 @@
       Short version? We teleport your package to you! Instantly! You'll have your stuff
      before you even knew you needed it!
     </p>
-    <button onclick="info('SRA is shorthand for Scranton Reality Anchor, a special device which is capable of changing how \'solid\' reailty is')">Click for more information</button>
+    <button id="infoBtn" type="button" data-message="SRA is shorthand for Scranton Reality Anchor, a special device which is capable of changing how \'solid\' reailty is">
+    Click for more information
+    </button>
     </div>
 
   
@@ -54,6 +57,8 @@
         <span class = "site-name">Quazar</span>
         <span class="copyright">©1969</span>
   </footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -28,6 +28,15 @@ img:hover {
     margin: 16px;
 }
 
+#header h1 {
+    font-family: Impact;
+    color: red;
+}
+
+#header p {
+    color: gold;
+}
+
 .main-content p {
     display:flex;
     flex-direction:column;
@@ -53,7 +62,7 @@ form {
     padding: 10px;
     background-color: rgba(10, 14, 28, 0.9);
     border-radius:12px;
-    display: inline-block;
+    display: block;
     margin-left: 16px;
     margin-right: 16px;
     box-shadow: 0 12px 30px rgba(90, 120, 255, 0.12);
@@ -79,7 +88,6 @@ input[type=text], input[type=email], select {
 
 input[type=submit] {
     width: 200px;
-    background-color:aqua;
     color: white;
     border-radius: 4px;
     padding: 8px;
@@ -104,7 +112,7 @@ input[type=submit]:hover {
     border: 1px solid black;
     border-radius: 8px;
     background-color: lightgrey;
-    color: black;
+    color: gold;
     padding: 4px;
 }
 
@@ -114,6 +122,12 @@ nav a {
     color: black;
 }
 
+
+footer {
+    all: unset;
+    display: block;
+    margin-top: auto;
+}
 
 footer {
   margin-top: auto;

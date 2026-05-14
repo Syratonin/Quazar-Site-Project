@@ -26,6 +26,9 @@ This website is for Quazar, a fictional company using teleportation to ship pack
 - Corrected typos in CSS file
 - Added a fun distance checker for the listed sites
 
+- Refactored with JQuery Framework
+- Added water.css library styling
+
 
 ## Future Plans
 

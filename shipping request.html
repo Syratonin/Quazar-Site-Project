@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Ship a Package</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <!--A page entirely dedicated to handling would be orders for the company to ship-->
@@ -21,7 +22,7 @@
   </ul>
 </nav>
 <div class = "layout">
-<form action="shipping request.html" target="_self" method="GET" onsubmit="handleFormSubmit(event)">
+<form id = myForm action="shipping request.html" target="_self" method="GET">
     <p>
         <label for="name">Name</label>
         <input type="text" id="name" name="fullname" required>
@@ -80,8 +81,9 @@
 
     <footer>
         <span class = "site-name">Quazar</span>
-        <span class="copyright">©1969</span>
+        <span class = "copyright">©1969</span>
     </footer>
     
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="assets/js/main.js"></script>
 </html>

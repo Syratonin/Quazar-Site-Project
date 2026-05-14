@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Quazar's Fascinating Story</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <!--A page to summarize the companies presence and history-->
@@ -46,7 +47,7 @@
             Think you have what it takes to join our team? Quazar is always looking for talent like you to operate and maintain our 
             highly sophisticated technology, email our recruitment team at careers@quazar.net for more information!**
         </p>
-        <button onclick="info('Not an active recruitment email')">
+        <button id="infoBtn" type="button" data-message="Not an active recruitment email">
             Click here to contact us!
         </button>
     </div>
@@ -64,6 +65,7 @@
         <span class = "site-name">Quazar</span>
         <span class="copyright">©1969</span>
     </footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="assets/js/main.js"></script>  
 </body>
 </html>
